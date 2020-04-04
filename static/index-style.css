@@ -1,0 +1,116 @@
+.todos{
+    align-items: center;
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.todo{
+    padding-top: 2px;
+    background-color: whitesmoke;
+    -webkit-box-shadow: 0px 2px 21px 1px rgba(82,82,82,1);
+    -moz-box-shadow: 0px 2px 21px 1px rgba(82,82,82,1);
+    box-shadow: 0px 2px 21px 1px rgba(82,82,82,1);
+}
+
+.addContent{
+    align-items: center;
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: whitesmoke;
+    -webkit-box-shadow: 0px 2px 51px 1px rgba(82,82,82,1);
+    -moz-box-shadow: 0px 2px 51px 1px rgba(82,82,82,1);
+    box-shadow: 0px 2px 51px 1px rgba(82,82,82,1);
+    transition: 0.25s ease 0s;
+    display: none;
+}
+
+.addContent input[type = "text"]{
+    margin-bottom: 4px;
+}
+
+.addContent input[type = "submit"]{
+    transition: 0.25s;
+    text-align: center;
+    margin: 5px auto;
+    display: block;
+    background: none;
+    color: black;
+    outline: 0;
+    padding: 8px 24px;
+    border: 0;
+    border: 2px solid black;
+    border-radius: 24px;
+    transition: 0.15s;
+}
+
+.quit{
+    margin-left: 21em;
+    font-size: small;
+    cursor: pointer;
+}
+
+.nav_links a, li{
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.25s ease 0s;
+    margin-top: 12px;
+}
+
+.nav_links li, a:hover{
+    color: #0088a9;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #24252a;
+}
+
+.logo{
+    margin-right: auto;
+    color: #edf0f1;
+    margin-top: 4px;
+    font-size: x-large;
+    padding-right: 8px;
+}
+
+.PostingText{
+    max-width: 100px;
+}
+
+.cFile{
+    transition: 0.25s;
+    text-align: center;
+    margin: 5px auto;
+    display: block;
+    background: none;
+    color: black;
+    outline: 0;
+    padding: 8px 24px;
+    border: 0;
+    border: 2px solid black;
+    border-radius: 24px;
+    transition: 0.15s;
+}

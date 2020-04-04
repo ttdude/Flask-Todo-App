@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(223, 230, 209);
+}
+
+.login-form{
+    align-items: center;
+    width: 250px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: whitesmoke;
+    -webkit-box-shadow: 0px 2px 21px 1px rgba(82,82,82,1);
+    -moz-box-shadow: 0px 2px 21px 1px rgba(82,82,82,1);
+    box-shadow: 0px 2px 21px 1px rgba(82,82,82,1);
+}
+
+.login-form h1{
+    color: black;
+    font-weight: 500;
+    background-color: whitesmoke;
+}
+
+.login-form a{
+    color: black;
+    background-color: whitesmoke;
+    text-decoration: none;
+}
+
+input[type = "text"] {
+    text-align: left;
+    margin: 20px auto;
+    display: block;
+    background: transparent;
+    color: black;
+    outline: 0;
+    padding: 14px 10px;
+    width: 200px;
+    border: 0;
+    border-bottom: 1px solid rgb(78, 74, 74);
+    transition: 0.15s;
+}
+
+input[type = "password"] {
+    text-align: left;
+    margin: 20px auto;
+    display: block;
+    background: transparent;
+    color: black;
+    outline: 0;
+    padding: 14px 10px;
+    width: 200px;
+    border: 0;
+    border-bottom: 1px solid rgb(78, 74, 74);
+    transition: 0.15s;
+}
+
+input[type = "email"] {
+    text-align: left;
+    margin: 20px auto;
+    display: block;
+    background: transparent;
+    color: black;
+    outline: 0;
+    padding: 14px 10px;
+    width: 200px;
+    border: 0;
+    border-bottom: 1px solid rgb(78, 74, 74);
+    transition: 0.15s;
+}
+
+input[type = "text"]:focus{
+    border-color: black;
+}
+
+input[type = "password"]:focus{
+    border-color: black;
+}
+
+input[type = "email"]:focus{
+    border-color: black;
+}
+
+input[type = "submit"]:focus{
+    border-color: rgb(223, 131, 187);
+    color: rgb(223, 131, 187);
+}
+
+input[type = "submit"]{
+    transition: 0.25s;
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+    background: none;
+    color: black;
+    outline: 0;
+    padding: 10px 35px;
+    border: 0;
+    border: 2px solid black;
+    border-radius: 24px;
+    transition: 0.15s;
+}
+
+.sbtn:hover{
+    border-color: rgb(223, 131, 187);
+    color: rgb(223, 131, 187);
+    cursor: pointer;
+}
+
+.flashes{
+    margin-left: 50%;
+    position: relative;
+}
